@@ -44,7 +44,7 @@ spec:
       containers:
       - image: %s
         name: %s
-`, name, name, name, name, image, image))
+`, name, name, name, name, image, name))
 	if err != nil {
 		return nil, err
 	}
