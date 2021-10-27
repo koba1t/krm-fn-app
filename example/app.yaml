@@ -6,7 +6,7 @@ metadata:
   annotations:
     config.kubernetes.io/function: |
       container:
-        image: ghcr.io/koba1t/krm-fn-app:v0.0.1
+        image: ghcr.io/koba1t/krm-fn-app:v0.0.2
 spec:
   image: "ghcr.io/koba1t/go-http-server:v0.0.1"
   port: 8080
