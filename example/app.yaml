@@ -1,0 +1,13 @@
+# $MYAPP/annotator.yaml
+apiVersion: transformers.example.co/v1
+kind: App
+metadata:
+  name: example-app
+  annotations:
+    config.kubernetes.io/function: |
+      container:
+        image: cr.k06.in/krn-fn-app:0.0.5
+spec:
+  image: "abs"
+  port: 8080
+  domain: fnapp.x.k06.in

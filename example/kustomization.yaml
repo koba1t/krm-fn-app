@@ -1,0 +1,4 @@
+namespace: fnapp
+
+generators:
+- app.yaml
