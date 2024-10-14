@@ -1,5 +1,5 @@
 # Build the manager binary
-FROM golang:1.17 as builder
+FROM public.ecr.aws/docker/library/golang:1.22.7-bullseye as builder
 
 WORKDIR /workspace
 
