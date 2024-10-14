@@ -1,0 +1,4 @@
+namespace: fnapp-wasmtime
+
+generators:
+- app.yaml

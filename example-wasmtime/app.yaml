@@ -1,0 +1,13 @@
+# $MYAPP/annotator.yaml
+apiVersion: transformers.example.co/v1
+kind: App
+metadata:
+  name: example-app
+  annotations:
+    config.kubernetes.io/function: |
+      exec:
+        path: ./run-wasmtime.sh
+spec:
+  image: "ghcr.io/koba1t/go-http-server:v0.0.1"
+  port: 8080
+  domain: fnapp.x.k06.in
